@@ -1,5 +1,5 @@
 {
-  "name": "loopback-connector-mssql",
+  "name": "loopback-connector-mssql-integrated-security",
   "version": "3.8.0",
   "description": "Microsoft SQL Server connector for LoopBack",
   "engines": {
@@ -50,8 +50,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/loopback-connector-mssql.git"
+    "url": "git+https://github.com/strongloop/loopback-connector-mssql.git"
   },
   "copyright.owner": "IBM Corp.",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strongloop/loopback-connector-mssql/issues"
+  },
+  "homepage": "https://github.com/strongloop/loopback-connector-mssql#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": ""
 }
